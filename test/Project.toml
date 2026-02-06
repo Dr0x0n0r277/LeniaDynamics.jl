@@ -1,0 +1,4 @@
+[deps]
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+LeniaDynamics = "3f8d9f2b-8f2b-4a31-8fb3-6f1a2e0d6b6a"

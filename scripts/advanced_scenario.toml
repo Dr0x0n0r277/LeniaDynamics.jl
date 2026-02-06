@@ -1,0 +1,33 @@
+[ui]
+backend = "fft"
+init = "spot"
+growth_kind = "gaussian"
+integrator_kind = "RK2"
+seed = 1
+noise_amp = 0.05000000074505806
+steps_per_tick = 1
+preset = "default"
+
+[view]
+autocontrast = false
+gamma = 1.0
+brush_radius = 22
+paint_enabled = true
+brush_strength = 0.25
+colormap = "viridis"
+
+[params]
+b2 = 0.699999988079071
+dt = 0.10000000149011612
+w1 = 0.15000000596046448
+w3 = 0.10000000149011612
+mu = 0.15000000596046448
+sigma = 0.014999999664723873
+radius = 13
+r3 = 0.8500000238418579
+rings = 2
+b3 = 0.0
+w2 = 0.11999999731779099
+r1 = 0.44999998807907104
+r2 = 0.75
+b1 = 1.0
