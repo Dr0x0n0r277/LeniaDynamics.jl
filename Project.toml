@@ -1,0 +1,21 @@
+name = "LeniaDynamics"
+uuid = "3f8d9f2b-8f2b-4a31-8fb3-6f1a2e0d6b6a"
+authors = ["LeniaDynamics.jl contributors"]
+version = "0.3.5"
+
+[deps]
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+[weakdeps]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+
+[extensions]
+LeniaDynamicsCUDAExt = "CUDA"
+
+[compat]
+FFTW = "1"
+CUDA = "5"
+julia = "1.10"
