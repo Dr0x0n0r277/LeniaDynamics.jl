@@ -2,7 +2,11 @@
 
 julia_version = "1.11.7"
 manifest_format = "2.0"
+<<<<<<< HEAD
 project_hash = "fa82266aa26b7a80fb60d4f0b8251272ed3fcf14"
+=======
+project_hash = "f16fe822499510bfa1849bca46b16c7a4bf4b3b3"
+>>>>>>> aba54a83b4fd1c07653f884c4d06ffe32d094890
 
 [[deps.AbstractFFTs]]
 deps = ["LinearAlgebra"]
@@ -735,7 +739,11 @@ version = "0.3.1"
 
 [[deps.LeniaDynamics]]
 deps = ["FFTW", "LinearAlgebra", "Random", "Statistics"]
+<<<<<<< HEAD
 path = "c:\\Code\\LeniaDynamics.jl-main\\scripts\\.."
+=======
+path = "C:\\Code\\LeniaDynamics_rel029\\scripts\\.."
+>>>>>>> aba54a83b4fd1c07653f884c4d06ffe32d094890
 uuid = "3f8d9f2b-8f2b-4a31-8fb3-6f1a2e0d6b6a"
 version = "0.3.5"
 
