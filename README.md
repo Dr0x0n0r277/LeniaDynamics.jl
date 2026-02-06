@@ -42,11 +42,11 @@ Julia balíček pro simulaci **Lenia** (kontinuální varianta “Game of Life�
 
 ```
 .
-├── src/                 # balíček (čistý sim core)
+├── src/                 # source code
 ├── test/                # testy pro Pkg.test()
-├── scripts/             # spustitelné ukázky/bench/GUI (+ pinovaný Manifest)
+├── scripts/             # spustitelné ukázky/bench/GUI 
 │   ├── Project.toml
-│   ├── Manifest.toml    # COMMITNUTÉ: reprodukovatelné prostředí
+│   ├── Manifest.toml   
 │   ├── run_example.jl
 │   ├── bench.jl
 │   └── run_gui.jl
