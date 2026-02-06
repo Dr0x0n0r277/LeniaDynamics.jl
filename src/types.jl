@@ -22,7 +22,7 @@ end
 
 Lenia parameters:
 - `kernel::KernelSpec`
-- `growth::Function`: growth mapping G(u) -> Δa in [-1, 1] (typically)
+- `growth::Function`: growth mapping G(u) -> Δa in `[-1, 1]` (typically)
 - `μ, σ`: growth parameters (used by default growth functions)
 - `dt`: time step
 """
